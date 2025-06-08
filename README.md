@@ -50,7 +50,6 @@ MedScope Health Screener is a futuristic web-based health diagnostic platform th
 
 ### Clone the Repositories
 
-```bash
 # Clone backend
 git clone https://github.com/ebeyejoseph/medscope-ml-backend
 # Or download the root folder manually from the link 
