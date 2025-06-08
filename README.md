@@ -50,18 +50,19 @@ MedScope Health Screener is a futuristic web-based health diagnostic platform th
 
 ### Clone the Repositories
 
-Clone backend
-git clone https://github.com/ebeyejoseph/medscope-ml-backend
-Or download the root folder manually from the link 
-cd medscope-backend 
-pip install -r requirements.txt
-python app.py  # Start the Flask server
+#### Clone backend
+In command line, type
+- git clone https://github.com/ebeyejoseph/medscope-ml-backend (or download the root folder manually from the link)
+- cd medscope-backend (i.e change directory to the folder)
+- python -m venv env (then) env\Scripts\activate on Windows (or) source env/bin/activate on Linux or MacOs (to create virtual environment)
+- pip install -r requirements.txt (to install dependencies)
+- python app.py (to start the Flask server)
 
-# Clone frontend
-git clone https://github.com/ebeyejoseph/medscope-frontend
-cd medscope-frontend
-Open index.html in your browser
-Don't forget to edit the API link to the backend address in the script file (e.g http://127.0.0.1:5000/predict)
+#### Clone frontend
+- git clone https://github.com/ebeyejoseph/medscope-frontend
+- cd medscope-frontend
+- Open index.html in your browser
+- Don't forget to edit the API link to the backend address in the script file (e.g http://127.0.0.1:5000/predict)
 
 ---
 
